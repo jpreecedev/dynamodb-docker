@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up",
+    "stop": "docker-compose down",
+    "js": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.368.0"
+  }
+}
